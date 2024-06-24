@@ -188,7 +188,7 @@
             @scroll="leftFixedScrollAction"
             :scroll-top="leftFiexScrollTop"
             class="zb-table-body-inner"
-            :style=" `height: calc(100% - ${showSummary?80:40}px)`">
+            :style=" `height: calc(100% - ${showSummary?80:40} - ${showHeader?0:40}px)`">
           <view class="zb-table-fixed">
             <view class="zb-table-tbody">
               <view
